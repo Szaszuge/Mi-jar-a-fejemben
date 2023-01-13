@@ -6,6 +6,66 @@ background-color: aquamarine;
 
 h1
 {
-    color: beige;
+    color: rgb(148, 28, 28);
     text-align: center;
+    font-family: fantasy;
 }
+.header{
+    display: flex;
+    order: -1;
+    flex-grow: 0;
+    background-color: tan;
+  }
+
+.article{
+    display: flex;
+    order: 3;
+    flex-grow: 2;
+    background-color:#e66465;
+  }
+.container{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .tartalom{
+    display: flex;
+    height: 75vh;
+  }
+  .container div{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+  }
+
+  .nav{
+    display: flex;
+    flex-grow: 4;
+    order: 2;
+    height: 90vh;
+    background-color: rgb(73, 107, 53);
+    }
+
+
+  @media screen and (max-width: 500px) {
+
+    
+  }
+
+  .header .cimsor{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+  .header .cimsor .logo{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  img{
+    width: 3rem;
+    height: 3rem;
+  }
