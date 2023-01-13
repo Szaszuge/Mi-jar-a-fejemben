@@ -3,7 +3,6 @@ body
 background-color: aquamarine;
 }
 
-
 h1
 {
     color: rgb(148, 28, 28);
@@ -19,7 +18,7 @@ h1
 
 .article{
     display: flex;
-    order: 3;
+    order: 1;
     flex-grow: 2;
     background-color:#e66465;
   }
@@ -36,8 +35,8 @@ h1
   }
   .container div{
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 
   }
 
